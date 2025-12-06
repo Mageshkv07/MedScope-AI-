@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<body>
+
+<!-- NAVIGATION BAR -->
+<nav class="navbar">
+    <div class="logo"> </div>
+    <div class="nav-links">
+        <button onclick="goHome()">Home</button>
+       <button onclick="showInsights()">Insights</button>
+        <button onclick="showIndustries()">Industries</button> <!-- NEW -->
+        <button onclick="showAbout()">About Us</button>
+
+    </div>
+</nav>
+
+<header>
+    <h1>MedScope AI – Pharma Research Assistant</h1>
+    <p>Your Intelligent Medicine & Molecule Research Companion</p>
+</header>
+
+<section class="search-section">
+    <div class="search-wrapper">
+    <i class="search-icon"> </i>
+    <input type="text" id="searchBox" class="search-box" placeholder="Search Molecule, Drug or Indication...">
+    <button class="search-btn" onclick="searchMolecule()">Analyze</button>
+</div>
+
+</section>
+
+
+<section id="result" class="result-section"></section>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
